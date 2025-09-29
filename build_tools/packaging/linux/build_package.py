@@ -732,7 +732,7 @@ def run(args: argparse.Namespace):
         prefix = args.install_prefix + "-" + args.rocm_version
     # Populate package config details from user arguments
     config = PackageConfig(
-        pkg_dir=args.dest_dir,
+        pkg_dir="/home/runner/work/TheRock/TheRock/output/artifacts",
         rocm_version=args.rocm_version,
         version_suffix=args.version_suffix,
         install_prefix=prefix,
@@ -742,7 +742,7 @@ def run(args: argparse.Namespace):
     pkg_list = parse_input_package_list(args.pkg_names)
     # Download and extract the required artifacts
     run_id = extract_build_id(args.artifact_url)
-    download_and_extract_artifacts(run_id, gfxarch)
+    #download_and_extract_artifacts(run_id, gfxarch)
     # Create deb/rpm packages
     package_creators = {"deb": create_deb_package, "rpm": create_rpm_package}
     for pkg_name in pkg_list:

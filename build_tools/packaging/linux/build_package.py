@@ -778,6 +778,8 @@ def download_and_extract_artifacts(run_id, gfxarch):
                 str(fetch_script),
                 "--run-id",
                 run_id,
+                "--run-github-repo",
+                ""ROCm/TheRock",
                 "--target",
                 gfxarch_params,
                 "--extract",

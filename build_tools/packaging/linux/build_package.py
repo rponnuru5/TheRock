@@ -18,6 +18,7 @@ create RPM and DEB packages and upload to artifactory server
 
 import argparse
 import glob
+import inspect
 import os
 import platform
 import shutil
@@ -67,7 +68,6 @@ def create_deb_package(pkg_name, config: PackageConfig):
 
     This function invokes the creation of versioned and non-versioned packages
     and moves the resulting `.deb` files to the destination directory.
-
     Parameters:
     pkg_name : Name of the package to be created
     config: Configuration object containing package metadata
@@ -412,7 +412,6 @@ def create_versioned_rpm_package(pkg_name, config: PackageConfig):
     specfile = package_dir / "specfile"
     generate_spec_file(pkg_name, specfile, config)
     package_with_rpmbuild(specfile)
-
 
 def create_rpm_package(pkg_name, config: PackageConfig):
     """Create an RPM package.
@@ -778,8 +777,6 @@ def download_and_extract_artifacts(run_id, gfxarch):
                 str(fetch_script),
                 "--run-id",
                 run_id,
-                "--run-github-repo",
-                "ROCm/TheRock",
                 "--target",
                 gfxarch_params,
                 "--extract",
@@ -803,7 +800,6 @@ def download_and_extract_artifacts(run_id, gfxarch):
 
 def clean_rpm_build_dir():
     """Clean the rpm build directory
-
     Parameters: None
     Returns: None
     """

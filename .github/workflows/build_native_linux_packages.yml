@@ -93,6 +93,6 @@ jobs:
           echo "Building RPM packages for ${{ inputs.amdgpu_family }} ${{ inputs.artifact_run_id }}"
           python ./build_tools/packaging/linux/build_package.py \
             --dest-dir ${{ env.PACKAGE_DIST_DIR }} \
-            --rocm-version  ${{ inputs.rocm_version }}\
-            --artifact-url "https://therock-artifacts.s3.amazonaws.com/17840675558-linux/index-gfx94X-dcgpu.html" \
+            --rocm-version  ${{ inputs.rocm_version }} \
+            --artifacts-dir ${{ env.ARTIFACTS_DIR }} \
             --pkg-type rpm

@@ -94,5 +94,6 @@ jobs:
           python ./build_tools/packaging/linux/build_package.py \
             --dest-dir ${{ env.PACKAGE_DIST_DIR }} \
             --rocm-version  ${{ inputs.rocm_version }} \
+            --target gfx94X-dcgpu ${{ inputs.amdgpu_family }} \
             --artifacts-dir ${{ env.ARTIFACTS_DIR }} \
             --pkg-type rpm

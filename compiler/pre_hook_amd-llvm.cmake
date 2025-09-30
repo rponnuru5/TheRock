@@ -27,7 +27,7 @@ else()
     set(LIBOMPTARGET_ENABLE_DEBUG ON)
     set(LIBOMPTARGET_NO_SANITIZER_AMDGPU ON)
     set(LIBOMP_INSTALL_RPATH "\$ORIGIN:\$ORIGIN/../lib:\$ORIGIN/../../lib:\$ORIGIN/../../../lib")
-    set(LIBOMPTARGET_EXTERNAL_PROJECT_HSA_PATH "${THEROCK_SOURCE_DIR}/rocm-systems/projects/rocr-runtime")
+    set(LIBOMPTARGET_EXTERNAL_PROJECT_HSA_PATH "${THEROCK_ROCM_SYSTEMS_SOURCE_DIR}/projects/rocr-runtime")
     set(OFFLOAD_EXTERNAL_PROJECT_UNIFIED_ROCR ON)
     # There is an issue with finding the zstd config built by TheRock when zstd
     # is searched for in the llvm config. LLVM has a FindZSTD.cmake that is
@@ -49,10 +49,12 @@ set(LLVM_TARGETS_TO_BUILD "AMDGPU;X86" CACHE STRING "Enable LLVM Targets" FORCE)
 # Packaging.
 set(PACKAGE_VENDOR "AMD" CACHE STRING "Vendor" FORCE)
 
-# Build the device-libs as part of the core compiler so that clang works by
-# default (as opposed to other components that are *users* of the compiler).
+# Build device-libs and spirv-llvm-translator as part of the core
+# compiler default (as opposed to other components that are *users*
+# of the compiler).
 set(LLVM_EXTERNAL_ROCM_DEVICE_LIBS_SOURCE_DIR "${THEROCK_SOURCE_DIR}/compiler/amd-llvm/amd/device-libs")
-set(LLVM_EXTERNAL_PROJECTS "rocm-device-libs" CACHE STRING "Enable extra projects" FORCE)
+set(LLVM_EXTERNAL_SPIRV_LLVM_TRANSLATOR_SOURCE_DIR "${THEROCK_SOURCE_DIR}/compiler/spirv-llvm-translator")
+set(LLVM_EXTERNAL_PROJECTS "rocm-device-libs;spirv-llvm-translator" CACHE STRING "Enable extra projects" FORCE)
 
 # TODO2: This mechanism has races in certain situations, failing to create a
 # symlink. Revisit once devicemanager code is made more robust.

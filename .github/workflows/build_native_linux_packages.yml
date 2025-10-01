@@ -72,7 +72,8 @@ jobs:
       - name: Install Python requirements
         run: |
           pip install pyelftools boto3 jinja2
-          yum install -f llvm
+          cat /etc/os-release
+          yum install -y llvm
 
       - name: Install System requirements
         run: |

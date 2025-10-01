@@ -77,7 +77,7 @@ jobs:
       - name: Install Python requirements
         run: |
           pip install pyelftools boto3 jinja2
-          sudo apt install -y llvm
+          sudo apt install -y llvm debhelper-compat
 
       - name: Fetch Artifacts
         # TODO: Currently fetch artifacts is part of build package itself. Need to seperate it out

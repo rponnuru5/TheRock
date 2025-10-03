@@ -432,7 +432,6 @@ def create_rpm_package(pkg_name, config: PackageConfig):
     move_packages_to_destination(pkg_name, config)
     clean_rpm_build_dir()
 
-
 def generate_spec_file(pkg_name, specfile, config: PackageConfig):
     """Generate an RPM spec file.
 

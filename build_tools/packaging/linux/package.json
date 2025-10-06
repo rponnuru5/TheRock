@@ -22,9 +22,7 @@
     "Vendor": "Advanced Micro Devices, Inc",
     "Homepage": "https://github.com/ROCm/rocm-systems",
     "Components": [
-      "lib",
-      "dev",
-      "doc"
+      "lib"
     ],
     "Artifact": "base",
     "Artifact_Subdir": "rocm-core",
@@ -619,8 +617,7 @@
     "Vendor": "Advanced Micro Devices, Inc",
     "Homepage": "https://github.com/ROCm/rocm-systems",
     "Components": [
-      "lib",
-      "doc"
+      "lib"
     ],
     "Artifact": "core-runtime",
     "Artifact_Subdir": "ROCR-Runtime",

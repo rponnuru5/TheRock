@@ -101,7 +101,7 @@ jobs:
             --target ${{ inputs.amdgpu_family }} \
             --artifacts-dir ${{ env.ARTIFACTS_DIR }} \
             --pkg-type ${{ inputs.package_type }} \
-            --pkg-names rocm-core \
+            --pkg-names rocm-core hsa-rocr \
             --version-suffix ${{ inputs.package_suffix }}
 
       - name: Install repo tools

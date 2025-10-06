@@ -58,8 +58,8 @@ permissions:
   contents: read
 
 jobs:
-  build_rpm_packages:
-    name: Build Linux rpm Packages (xfail ${{ inputs.expect_failure }})
+  build_native_packages:
+    name: Build Linux native Packages (xfail ${{ inputs.expect_failure }})
     strategy:
       fail-fast: false
     runs-on: ${{ github.repository_owner == 'ROCm' && 'azure-linux-scale-rocm' || 'ubuntu-24.04' }}
@@ -88,7 +88,7 @@ jobs:
             --run-id=${{ env.ARTIFACT_RUN_ID }} \
             --run-github-repo="ROCm/TheRock" \
             --target=${{ inputs.amdgpu_family }} \
-            --all \
+            --base-only \
             --output-dir=${{ env.ARTIFACTS_DIR }}
 
       - name: Build Packages
@@ -101,6 +101,7 @@ jobs:
             --target ${{ inputs.amdgpu_family }} \
             --artifacts-dir ${{ env.ARTIFACTS_DIR }} \
             --pkg-type ${{ inputs.package_type }} \
+            --pkg-names rocm-core \
             --version-suffix ${{ inputs.package_suffix }}
 
       - name: Install repo tools

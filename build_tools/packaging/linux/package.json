@@ -621,8 +621,9 @@
     ],
     "Artifact": "core-runtime",
     "Artifact_Subdir": "ROCR-Runtime",
-    "Gfxarch": "False"
-
+    "Gfxarch": "False",
+    "Disable_DWZ": "True",
+    "Disable_DH_STRIP": "True"
   },
   {
     "Package": "hsa-rocr-devel",

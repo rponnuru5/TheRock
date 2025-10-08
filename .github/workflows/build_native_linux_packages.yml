@@ -101,6 +101,10 @@ jobs:
             --pkg-type ${{ inputs.package_type }} \
             --version-suffix ${{ inputs.package_suffix }}
 
+      - name: Install generated packages (Python script)
+        run: |
+          python3 install_packages.py --artifacts-dir ${{ env.ARTIFACTS_DIR }}
+
       - name: Upload Packages
         id: upload-packages
         run: |

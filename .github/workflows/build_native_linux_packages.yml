@@ -121,6 +121,9 @@ jobs:
           #with:
           #aws-region: us-east-2
           #role-to-assume: arn:aws:iam::692859939525:role/therock-artifacts
+      - name: Install generated packages (Python script)
+        run: |
+          python3 install_packages.py --artifacts-dir ${{ env.ARTIFACTS_DIR }}
 
       - name: Upload Package repo to S3
         id: upload-packages

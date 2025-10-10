@@ -1,30 +1,6 @@
 name: Build Native Linux Packages
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-  workflow_dispatch:
-    inputs:
-      artifact_run_id:
-        description: "ROCm artifacts run id"
-        required: true
-      amdgpu_family:
-        description: "GPU family (e.g. gfx94X-dcgpu)"
-        required: false
-        default: gfx94X-dcgpu
-      package_suffix:
-        required: true
-        default: 17840675558 
-      rocm_version:
-        required: true 
-        default: 7.0.0
-      package_type:
-        required: true 
-        default: deb
-
-
   workflow_call:
     inputs:
       amdgpu_family:
@@ -65,7 +41,7 @@ on:
         options:
           - rpm
           - deb
-        default: "rpm"
+        default: "deb"
       package_suffix:
         description: The suffix to be added to package name(build_no or master or rc or combiantion).
         type: false

@@ -1,0 +1,360 @@
+2025-10-14 12:39:39 - INFO - Detected or provided OS type: debian
+2025-10-14 12:39:39 - INFO - Using artifacts from: /home/runner/work/TheRock/TheRock/output/packages/
+2025-10-14 12:39:39 - INFO - Version flag: False
+2025-10-14 12:39:39 - INFO - Composite flag: False
+2025-10-14 12:39:39 - INFO - Detected OS family: debian
+2025-10-14 12:39:39 - INFO - Version flag: False
+2025-10-14 12:39:39 - INFO - Non-composite count: 55
+2025-10-14 12:39:39 - INFO - Composite count: 26
+2025-10-14 12:39:39 - INFO - Sorted Non-composite count: 55
+2025-10-14 12:39:39 - INFO - Sorted Composite count: 26
+2025-10-14 12:39:39 - ERROR - No matching package found for: amd-smi-lib
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipcc-nvidia
+2025-10-14 12:39:39 - ERROR - No matching package found for: hip-doc
+2025-10-14 12:39:39 - ERROR - No matching package found for: hip-samples
+2025-10-14 12:39:39 - ERROR - No matching package found for: rocfft
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipfft
+2025-10-14 12:39:39 - ERROR - No matching package found for: rocrand
+2025-10-14 12:39:39 - ERROR - No matching package found for: hiprand
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipblaslt
+2025-10-14 12:39:39 - ERROR - No matching package found for: rocblas
+2025-10-14 12:39:39 - ERROR - No matching package found for: rocsolver
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipblas
+2025-10-14 12:39:39 - ERROR - No matching package found for: composablekernel-ckprofiler
+2025-10-14 12:39:39 - ERROR - No matching package found for: rocsparse
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipsparse
+2025-10-14 12:39:39 - ERROR - No matching package found for: hipsolver
+2025-10-14 12:39:39 - ERROR - No matching package found for: miopen-hip
+2025-10-14 12:39:39 - ERROR - No matching package found for: rccl
+2025-10-14 12:39:39 - INFO - Final install list count: 74
+2025-10-14 12:39:39 - INFO - Non-composite packages installation begins...
+2025-10-14 12:39:39 - INFO - Installing: rocm-core7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed rocm-core7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: rocm-core_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed rocm-core_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: rocm-cmake7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed rocm-cmake7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: rocm-cmake_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed rocm-cmake_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: half7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed half7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: half_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - ✅ Successfully installed half_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:39 - INFO - Installing: rocm-smi-lib7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - ✅ Successfully installed rocm-smi-lib7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - Installing: rocm-smi-lib_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - ✅ Successfully installed rocm-smi-lib_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - Installing: rocprofiler-register7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - ✅ Successfully installed rocprofiler-register7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - Installing: rocprofiler-register_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - ✅ Successfully installed rocprofiler-register_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:40 - INFO - Installing: rocm-llvm7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:44 - INFO - ✅ Successfully installed rocm-llvm7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:44 - INFO - Installing: rocm-llvm_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:44 - INFO - ✅ Successfully installed rocm-llvm_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:44 - INFO - Installing: rocm-llvm-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:50 - INFO - ✅ Successfully installed rocm-llvm-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:50 - INFO - Installing: rocm-llvm-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:50 - INFO - ✅ Successfully installed rocm-llvm-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:50 - INFO - Installing: comgr7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:51 - INFO - ✅ Successfully installed comgr7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:51 - INFO - Installing: comgr_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed comgr_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: hipcc7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed hipcc7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: hipcc_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed hipcc_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: hsa-rocr7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed hsa-rocr7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: hsa-rocr_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed hsa-rocr_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: rocminfo7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed rocminfo7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: rocminfo_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - ✅ Successfully installed rocminfo_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:52 - INFO - Installing: hip-runtime-amd7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - ✅ Successfully installed hip-runtime-amd7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - Installing: hip-runtime-amd_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - ✅ Successfully installed hip-runtime-amd_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - Installing: hip-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - ✅ Successfully installed hip-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - Installing: hip-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - ✅ Successfully installed hip-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:53 - INFO - Installing: hipify-clang7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hipify-clang7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: hipify-clang_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hipify-clang_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: hsa-rocr-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hsa-rocr-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: hsa-rocr-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hsa-rocr-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: hsa-amd-aqlprofile7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hsa-amd-aqlprofile7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: hsa-amd-aqlprofile_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - ✅ Successfully installed hsa-amd-aqlprofile_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:54 - INFO - Installing: rocprofiler-sdk7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed rocprofiler-sdk7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: rocprofiler-sdk_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed rocprofiler-sdk_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: roctracer7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed roctracer7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: roctracer_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed roctracer_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: roctracer-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed roctracer-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: roctracer-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - ✅ Successfully installed roctracer-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - INFO - Installing: rocfft-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:55 - ERROR - Failed to install rocfft-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocfft-dev7.0.0:
+ rocfft-dev7.0.0 depends on rocfft7.0.0-gfx94x; however:
+  Package rocfft7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rocfft-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocfft-dev7.0.0
+2025-10-14 12:39:55 - INFO - Installing: rocfft-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install rocfft-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocfft-dev:
+ rocfft-dev depends on rocfft-dev7.0.0; however:
+  Package rocfft-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rocfft-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocfft-dev
+2025-10-14 12:39:56 - INFO - Installing: hipfft-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install hipfft-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipfft-dev7.0.0:
+ hipfft-dev7.0.0 depends on hipfft7.0.0-gfx94x; however:
+  Package hipfft7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hipfft-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipfft-dev7.0.0
+2025-10-14 12:39:56 - INFO - Installing: hipfft-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install hipfft-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipfft-dev:
+ hipfft-dev depends on hipfft-dev7.0.0; however:
+  Package hipfft-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hipfft-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipfft-dev
+2025-10-14 12:39:56 - INFO - Installing: rocrand-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install rocrand-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocrand-dev7.0.0:
+ rocrand-dev7.0.0 depends on rocrand7.0.0-gfx94x; however:
+  Package rocrand7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rocrand-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocrand-dev7.0.0
+2025-10-14 12:39:56 - INFO - Installing: rocrand-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install rocrand-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocrand-dev:
+ rocrand-dev depends on rocrand-dev7.0.0; however:
+  Package rocrand-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rocrand-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocrand-dev
+2025-10-14 12:39:56 - INFO - Installing: hiprand-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install hiprand-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hiprand-dev7.0.0:
+ hiprand-dev7.0.0 depends on hiprand7.0.0-gfx94x; however:
+  Package hiprand7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hiprand-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hiprand-dev7.0.0
+2025-10-14 12:39:56 - INFO - Installing: hiprand-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install hiprand-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hiprand-dev:
+ hiprand-dev depends on hiprand-dev7.0.0; however:
+  Package hiprand-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hiprand-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hiprand-dev
+2025-10-14 12:39:56 - INFO - Installing: rocblas-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install rocblas-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocblas-dev7.0.0:
+ rocblas-dev7.0.0 depends on rocrand7.0.0-gfx94x; however:
+  Package rocrand7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rocblas-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocblas-dev7.0.0
+2025-10-14 12:39:56 - INFO - Installing: rocblas-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install rocblas-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocblas-dev:
+ rocblas-dev depends on rocblas-dev7.0.0; however:
+  Package rocblas-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rocblas-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocblas-dev
+2025-10-14 12:39:56 - INFO - Installing: hipblas-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:56 - ERROR - Failed to install hipblas-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipblas-dev7.0.0:
+ hipblas-dev7.0.0 depends on hipblas7.0.0-gfx94x; however:
+  Package hipblas7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hipblas-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipblas-dev7.0.0
+2025-10-14 12:39:56 - INFO - Installing: hipblas-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - ERROR - Failed to install hipblas-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipblas-dev:
+ hipblas-dev depends on hipblas-dev7.0.0; however:
+  Package hipblas-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hipblas-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipblas-dev
+2025-10-14 12:39:57 - INFO - Installing: hipblaslt-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - ERROR - Failed to install hipblaslt-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipblaslt-dev7.0.0:
+ hipblaslt-dev7.0.0 depends on hipblaslt7.0.0-gfx94x; however:
+  Package hipblaslt7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hipblaslt-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipblaslt-dev7.0.0
+2025-10-14 12:39:57 - INFO - Installing: hipblaslt-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - ERROR - Failed to install hipblaslt-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipblaslt-dev:
+ hipblaslt-dev depends on hipblaslt-dev7.0.0; however:
+  Package hipblaslt-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hipblaslt-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipblaslt-dev
+2025-10-14 12:39:57 - INFO - Installing: hipblas-common-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - INFO - ✅ Successfully installed hipblas-common-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - INFO - Installing: hipblas-common-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - INFO - ✅ Successfully installed hipblas-common-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:39:57 - INFO - Installing: composablekernel-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:03 - INFO - ✅ Successfully installed composablekernel-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:03 - INFO - Installing: composablekernel-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - INFO - ✅ Successfully installed composablekernel-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - INFO - Installing: rocsparse-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install rocsparse-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocsparse-dev7.0.0:
+ rocsparse-dev7.0.0 depends on rocsparse7.0.0-gfx94x; however:
+  Package rocsparse7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rocsparse-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocsparse-dev7.0.0
+2025-10-14 12:40:04 - INFO - Installing: rocsparse-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install rocsparse-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocsparse-dev:
+ rocsparse-dev depends on rocsparse-dev7.0.0; however:
+  Package rocsparse-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rocsparse-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocsparse-dev
+2025-10-14 12:40:04 - INFO - Installing: hipsparse-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install hipsparse-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipsparse-dev7.0.0:
+ hipsparse-dev7.0.0 depends on hipsparse7.0.0-gfx94x; however:
+  Package hipsparse7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hipsparse-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipsparse-dev7.0.0
+2025-10-14 12:40:04 - INFO - Installing: hipsparse-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install hipsparse-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipsparse-dev:
+ hipsparse-dev depends on hipsparse-dev7.0.0; however:
+  Package hipsparse-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hipsparse-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipsparse-dev
+2025-10-14 12:40:04 - INFO - Installing: rocsolver-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install rocsolver-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocsolver-dev7.0.0:
+ rocsolver-dev7.0.0 depends on rocsolver7.0.0-gfx94x; however:
+  Package rocsolver7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rocsolver-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocsolver-dev7.0.0
+2025-10-14 12:40:04 - INFO - Installing: rocsolver-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install rocsolver-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rocsolver-dev:
+ rocsolver-dev depends on rocsolver-dev7.0.0; however:
+  Package rocsolver-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rocsolver-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rocsolver-dev
+2025-10-14 12:40:04 - INFO - Installing: hipsolver-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install hipsolver-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipsolver-dev7.0.0:
+ hipsolver-dev7.0.0 depends on hipsolver7.0.0-gfx94x; however:
+  Package hipsolver7.0.0-gfx94x is not installed.
+
+dpkg: error processing package hipsolver-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipsolver-dev7.0.0
+2025-10-14 12:40:04 - INFO - Installing: hipsolver-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:04 - ERROR - Failed to install hipsolver-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of hipsolver-dev:
+ hipsolver-dev depends on hipsolver-dev7.0.0; however:
+  Package hipsolver-dev7.0.0 is not configured yet.
+
+dpkg: error processing package hipsolver-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ hipsolver-dev
+2025-10-14 12:40:04 - INFO - Installing: miopen-hip-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - ERROR - Failed to install miopen-hip-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of miopen-hip-dev7.0.0:
+ miopen-hip-dev7.0.0 depends on miopen-hip7.0.0-gfx94x; however:
+  Package miopen-hip7.0.0-gfx94x is not installed.
+
+dpkg: error processing package miopen-hip-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ miopen-hip-dev7.0.0
+2025-10-14 12:40:05 - INFO - Installing: miopen-hip-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - ERROR - Failed to install miopen-hip-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of miopen-hip-dev:
+ miopen-hip-dev depends on miopen-hip-dev7.0.0; however:
+  Package miopen-hip-dev7.0.0 is not configured yet.
+
+dpkg: error processing package miopen-hip-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ miopen-hip-dev
+2025-10-14 12:40:05 - INFO - Installing: rocprim-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - ✅ Successfully installed rocprim-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - Installing: rocprim-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - ✅ Successfully installed rocprim-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - Installing: hipcub-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - ✅ Successfully installed hipcub-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - Installing: hipcub-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - ✅ Successfully installed hipcub-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:05 - INFO - Installing: rocthrust-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - INFO - ✅ Successfully installed rocthrust-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - INFO - Installing: rocthrust-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - INFO - ✅ Successfully installed rocthrust-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - INFO - Installing: rccl-dev7.0.0_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - ERROR - Failed to install rccl-dev7.0.0_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rccl-dev7.0.0:
+ rccl-dev7.0.0 depends on rccl7.0.0-gfx94x; however:
+  Package rccl7.0.0-gfx94x is not installed.
+
+dpkg: error processing package rccl-dev7.0.0 (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rccl-dev7.0.0
+2025-10-14 12:40:06 - INFO - Installing: rccl-dev_7.0.0.70000-16418185899_amd64.deb
+2025-10-14 12:40:06 - ERROR - Failed to install rccl-dev_7.0.0.70000-16418185899_amd64.deb. Error : dpkg: dependency problems prevent configuration of rccl-dev:
+ rccl-dev depends on rccl-dev7.0.0; however:
+  Package rccl-dev7.0.0 is not configured yet.
+
+dpkg: error processing package rccl-dev (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ rccl-dev

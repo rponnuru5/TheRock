@@ -19,6 +19,11 @@ def main():
     composite_flag = args.composite.lower() == "true"
     amdgpu_family = args.amdgpu_family
 
+    if amdgpu_family:
+        amdgpu_family = amdgpu_family.split("-")[0]
+    else:
+        amdgpu_family = None
+
     pm = LoadPackages(args.package_json,amdgpu_family)
     non_comp, comp = pm.list_composite_packages()
 

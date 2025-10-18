@@ -105,6 +105,7 @@ jobs:
             --artifacts-dir ${{ env.ARTIFACTS_DIR }} \
             --pkg-type ${{ inputs.package_type }} \
             --version-suffix ${{ env.PACKAGE_SUFFIX }}
+            --pkg-names rocm-core hsa-rocr rocprofiler-register \
 
       - name: Install AWS CLI
         run: bash ./dockerfiles/install_awscli.sh

@@ -625,6 +625,7 @@
     "Artifact": "core-runtime",
     "Artifact_Subdir": "ROCR-Runtime",
     "Gfxarch": "False"
+
   },
   {
     "Package": "hsa-rocr-devel",

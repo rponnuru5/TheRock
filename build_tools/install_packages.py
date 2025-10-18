@@ -27,7 +27,8 @@ def main():
     pm = LoadPackages(args.package_json,amdgpu_family)
     non_comp, comp = pm.list_composite_packages()
 
-    logger.info(f"Composite flag: {composite_flag}")
+    logger.info(f"Count of Composite packages: {len(comp)}")
+    logger.info(f"Count of non Composite packages: {len(non_comp)}")
     if composite_flag:
         sorted_packages = pm.sort_packages_by_dependencies(comp)
     else:

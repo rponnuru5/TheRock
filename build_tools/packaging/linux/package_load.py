@@ -206,16 +206,13 @@ class LoadPackages:
 
         final_install_list = []
         for base in sorted_packages:
-            print("base=",base)
             pkgs = self.find_packages_for_base(dest_dir, base, version_flag)
-            print("pkgs=",pkgs)
             if pkgs:
                 final_install_list.extend(pkgs)
             else:
                 logger.error(f"No matching package found for: {base}")
 
         logger.info(f"Final install list count: {len(final_install_list)}")
-        logger.info(f"Final install list : {(final_install_list)}")
 
         #logger.info(f"sorted_packages: {(final_install_list)}")
         if not final_install_list:

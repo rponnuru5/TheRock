@@ -18,7 +18,6 @@ create RPM and DEB packages and upload to artifactory server
 
 import argparse
 import glob
-import inspect
 import os
 import platform
 import shutil
@@ -357,8 +356,7 @@ def package_with_dpkg_build(pkg_dir):
     current_dir = Path.cwd()
     os.chdir(Path(pkg_dir))
     # Build the command
-    #cmd = ["dpkg-buildpackage", "-uc", "-us", "-b"]
-    cmd = ["env", "DH_VERBOSE=1", "DEB_BUILD_OPTIONS=verbose", "dpkg-buildpackage", "-uc", "-us", "-b", "-D", "--no-sign"]
+    cmd = ["dpkg-buildpackage", "-uc", "-us", "-b"]
 
     # Execute the command
     try:

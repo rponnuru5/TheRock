@@ -22,7 +22,9 @@
     "Vendor": "Advanced Micro Devices, Inc",
     "Homepage": "https://github.com/ROCm/rocm-systems",
     "Components": [
-      "lib"
+      "lib",
+      "dev",
+      "doc"
     ],
     "Artifact": "base",
     "Artifact_Subdir": "rocm-core",
@@ -617,13 +619,12 @@
     "Vendor": "Advanced Micro Devices, Inc",
     "Homepage": "https://github.com/ROCm/rocm-systems",
     "Components": [
-      "lib"
+      "lib",
+      "doc"
     ],
     "Artifact": "core-runtime",
     "Artifact_Subdir": "ROCR-Runtime",
-    "Gfxarch": "False",
-    "Disable_DWZ": "True",
-    "Disable_DH_STRIP": "True"
+    "Gfxarch": "False"
   },
   {
     "Package": "hsa-rocr-devel",

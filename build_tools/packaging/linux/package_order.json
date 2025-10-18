@@ -1,9 +1,0 @@
-{
-  "composite_order":[
-	  "rocm-base", "amd-llvm", "amd-llvm-devel", "rocm-hsa-runtime", "rocm-hsa-devel", "rocm-hip-runtime", "rocm-hip-devel", "rocm-blas", "rocm-blas-devel", "rocm-fft", "rocm-fft-devel", "rocm-rand", "rocm-rand-devel", "rocm-composablekernel", "rocm-composablekernel-devel", "rocm-rccl", "rocm-rccl-devel", "rocm-miopen", "rocm-miopen-devel", "rocm-prim", "rocm-profiler-sdk", "rocm-hipify", "rocm-sysdeps", "rocm-host-blas", "rocm-host-suite-sparse", "rocm-support-devel"
-  ],
-  "noncomposite_order":[
-	  "rocm-core", "rocm-cmake", "half", "rocm-smi-lib", "rocprofiler-register", "rocm-llvm", "rocm-llvm-devel", "amd-smi-lib", "comgr", "hipcc", "hipcc-nvidia", "hsa-rocr", "rocminfo", "hip-runtime-amd", "hip-devel", "hip-doc", "hip-samples", "hipify-clang", "hsa-rocr-devel", "hsa-amd-aqlprofile", "rocprofiler-sdk", "roctracer", "roctracer-devel", "rocfft", "rocfft-devel", "hipfft", "hipfft-devel", "rocrand", "rocrand-devel", "hiprand", "hiprand-devel", "rocblas", "rocblas-devel", "hipblas", "hipblas-devel", "hipblaslt", "hipblaslt-devel", "hipblas-common-devel", "composablekernel-ckprofiler", "composablekernel-devel", "rocsparse", "rocsparse-devel", "hipsparse", "hipsparse-devel", "rocsolver", "rocsolver-devel", "hipsolver", "hipsolver-devel", "miopen-hip", "miopen-hip-devel", "rocprim-devel", "hipcub-devel", "rocthrust-devel", "rccl", "rccl-devel"
-  ]
-}
-
